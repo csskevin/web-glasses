@@ -20,9 +20,6 @@ if(workfolder.on_first_install)
     apps.installApp("https://store.web-glasses.net/apps/webglasses/default.zip").then(function(app_id) {
         permission.allowPermission(app_id, "apps_control");
     });
-    apps.installApp("https://store.web-glasses.net/apps/webglasses/permission.zip").then(function(app_id) {
-        permission.allowPermission(app_id, "apps_control");
-    });
 }
 
 // Permission handler

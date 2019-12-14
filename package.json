@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "start": "node index.js",
-    "compile:raspberry": "pkg index.js --target=latest-linux-armv7 --output=./build/raspberry/web-glasses-server",
+    "compile:raspberry": "pkg index.js --target=latest-linux-armv7 --output=./build/raspberry/web-glasses-server_armv7",
     "compile": "npm run compile:raspberry"
   },
   "author": "",

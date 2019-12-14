@@ -1,0 +1,15 @@
+[Unit]
+Description=WebGlasses Server for your AR Glasses [Service]
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+KillSignal=SQIGQUIT
+User=root
+ExecStart=/bin/web-glasses-server [Install]
+
+[Install]
+WantedBy=multi-user.target

@@ -9,7 +9,7 @@ Restart=always
 RestartSec=1
 KillSignal=SIGQUIT
 User=root
-ExecStart=/bin/web-glasses-server [Install]
+ExecStart=/bin/web-glasses-server_armv7 [Install]
 
 [Install]
 WantedBy=multi-user.target

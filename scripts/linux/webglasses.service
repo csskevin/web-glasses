@@ -7,7 +7,7 @@ StartLimitIntervalSec=0
 Type=simple
 Restart=always
 RestartSec=1
-KillSignal=SQIGQUIT
+KillSignal=SIGQUIT
 User=root
 ExecStart=/bin/web-glasses-server [Install]
 

@@ -17,3 +17,9 @@ To install this software run:
 ```sh
 bash <(curl -s https://raw.githubusercontent.com/csskevin/web-glasses/master/scripts/linux/install.sh)
 ```
+
+In order to uninstall this software you can use following command:
+
+```sh
+bash <(curl -s https://raw.githubusercontent.com/csskevin/web-glasses/master/scripts/linux/uninstall.sh)
+```

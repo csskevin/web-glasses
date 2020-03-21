@@ -2,24 +2,32 @@
 
 Web Glasses is a software designed for a self built AR Glasses.
 
-This software is currently available for ARMv7 processor, so it is compatible with
-- Raspberry Pi 2 Model B
-- Raspberry Pi 2 Model B v1.2
-- Raspberry Pi 3 Model A+
-- Raspberry Pi 3 Model B
-- Raspberry Pi 3 Model B+
-- Raspberry Pi 4 Model B
+### This project structure has changed. 
 
-Raspberry Pi Zero as well as Raspberry Pi Zero W are not supported currently.
+### Getting started
 
-To install this software run:
+Download the latest release
 
-```sh
-bash <(curl -s https://raw.githubusercontent.com/csskevin/web-glasses/master/scripts/linux/install.sh)
-```
+```git clone https://github.com/csskevin/web-glasses.git```
 
-In order to uninstall this software you can use following command:
+Open the folder
 
-```sh
-bash <(curl -s https://raw.githubusercontent.com/csskevin/web-glasses/master/scripts/linux/uninstall.sh)
-```
+```cd web-glasses/```
+
+Install dependencies (This may take a while)
+
+```npm install```
+
+Run the service
+
+```npm start```
+
+~~This software is currently available for ARMv7 processor, so it is compatible with~~
+- ~~Raspberry Pi 2 Model B~~
+- ~~Raspberry Pi 2 Model B v1.2~~
+- ~~Raspberry Pi 3 Model A+~~
+- ~~Raspberry Pi 3 Model B~~
+- ~~Raspberry Pi 3 Model B+~~
+- ~~Raspberry Pi 4 Model B~~
+
+~~Raspberry Pi Zero as well as Raspberry Pi Zero W are not supported currently.~~

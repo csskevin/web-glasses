@@ -1,23 +1,32 @@
 {
-  "name": "react-glasses-backend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest",
-    "start": "node index.js",
-    "compile:raspberry": "pkg index.js --target=latest-linux-armv7 --output=./build/raspberry/web-glasses-server_armv7",
-    "compile": "npm run compile:raspberry"
+  "name": "web-glasses",
+  "version": "0.1.1-alpha0.1",
+  "description": "WebGlasses Server for your AR Web Glasses.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/csskevin/web-glasses"
   },
+  "main": "dist/index.js",
+  "type": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w -p .",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "web-glasses"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "adm-zip": "^0.4.13",
+    "@types/request": "^2.48.4",
     "body-parser": "^1.19.0",
+    "chromium-binary": "^76.0.3809-87",
     "express": "^4.17.1",
-    "http-proxy": "^1.18.0",
-    "node-fetch": "^2.6.0",
-    "pkg": "^4.4.0"
+    "request": "^2.88.2",
+    "typescript": "^3.8.3",
+    "wg-core": "^0.1.5-alpha0.4",
+    "wg-service-core": "^0.1.4-alpha0.1"
   },
   "devDependencies": {}
 }
